@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card.j
 import { Send, Edit, Trash2, Check, X, Moon, Sun, Palette, Settings, Search, MoreVertical, Phone, Video } from 'lucide-react'
 import './App.css'
 
-const BACKEND_URL = 'http://localhost:3001'
+const BACKEND_URL = 'https://public-chat-backend-3z4u.onrender.com'
 
 function App() {
   const [socket, setSocket] = useState(null)
